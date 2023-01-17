@@ -1,7 +1,7 @@
 div.product{
     width: 100%;
     height: 320px;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     margin-top: 12px;
 }
 div.product>div.center{
