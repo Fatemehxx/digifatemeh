@@ -1,0 +1,101 @@
+div.supporter{
+    width: 100%;
+    height: 300px;
+    margin-top: 24px;
+}
+div.supporter>div{
+    width: 85%;
+    height: inherit;
+    padding: 10px 0;
+    margin: 0 auto;
+    position: relative;
+    border: 1px solid #f0f0f1;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+div.supporter>div>div{   
+    width: 280px;
+    height: 50px;
+    display: inline-block;
+    margin-bottom: 3px;
+    position: absolute;
+    right: calc(50% - 250px /2);
+    top: 10px;
+    font-size: 24px;
+    font-family: iranyekan,sans-serif;
+    color: #080a38;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: center;
+    direction: ltr;
+
+}
+div.supporter>div>div>div.svg{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
+div.supporter>div>div.ss{
+    width: 100%;
+    height: 210px;
+    background-color: #f0f0f1;
+    position: absolute;
+    top: 65px;
+    right: 0;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 4 16px !important;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    font-size: 15px;
+    color: #2b2b2b;
+    font-weight: bold;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    padding: 5px !important;
+    background-color: lightgrey;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}

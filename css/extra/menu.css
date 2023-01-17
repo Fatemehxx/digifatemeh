@@ -1,0 +1,213 @@
+header>div.menu {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+header>div.menu>nav {
+    width: inherit;
+    height: inherit;
+}
+header>div.menu>nav>ul {
+    width: inherit;
+    height: inherit;
+    padding-right: 20px;
+    list-style-type: none;
+}
+header>div.menu>nav>ul>li {
+    display: inline-block;
+    width: auto;
+    height: inherit;
+    position: relative;
+}
+header>div.menu>nav>ul>li>a {
+    display: block;
+    width: auto;
+    height: inherit;
+    font-size: 15px;
+    font-weight: 500;
+    color: #5a5c7a;
+    line-height: 40px;
+    padding-right: 25px;
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: iranyekan, sans-serif;
+    position: relative;
+}
+header>div.menu>nav>ul>li>a>svg{
+    position: absolute;
+    right: 2px;
+    top: 8px;
+}
+header>div.menu>nav>ul>li>a.first{
+    display: block;
+    width: auto;
+    height: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(63, 64, 100);
+    line-height: 40px;
+    text-decoration: none;
+    padding-right: 25px;
+    font-family: iranyekan, sans-serif;
+    position: relative;
+}
+header>div.menu>nav>ul>li>a.first>svg{
+    position: absolute;
+    right: 0;
+    top: 8px;
+}
+header>div.menu>nav>ul>li>div {
+    width: calc(100vw - 100px);
+    height: 630px;
+    background-color: white;
+    position: absolute;
+    right: 20px;
+    box-shadow: 3px 3px 5px lightgray;
+    display: none;
+    z-index: 9999999;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    transition: 200ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+}
+header>div.menu>nav>ul>li>div>div {
+    width: 13%;
+    height: inherit;
+    overflow: auto;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 1px 1px rgb(161, 161, 161);
+}
+header>div.menu>nav>ul>li:hover>div {
+    display: block;
+}
+header>div.menu>nav>ul>li>div>div>div{
+    width: 100%;
+    height: 63.5px;
+    background-color: rgb(255, 255, 255);
+    line-height: 63.5px;
+}
+header>div.menu>nav>ul>li>div>div>div>a {
+    text-decoration: none;
+    color: #2b2b2b;
+    font-size: 18px;
+    font-family: iranykan, sans-serif;
+    display: block;
+    text-align: right;
+    padding: 0 20px 0 0;
+    box-sizing: border-box;
+    width: inherit;
+    height: inherit;
+    transition: 200ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+}
+header>div.menu>nav>ul>li>div>div>div>a:hover {
+    background-color: rgb(238, 238, 238);
+    color: crimson;
+}
+header>div.menu>nav>ul>li>div>div>div>div.submenu {
+    width: 87%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu {
+    display: block;
+}
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div.top{
+    width: 99%;
+    height: 65px;
+    position: absolute;
+    right: 15px;
+    top: 0;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: iranyekan,sans-serif;
+    line-height: 65px;
+    color: #2b2b2b;
+}
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div.top>div.svg{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    right: 142px;
+}
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div.top>div.svg>svg{
+    position: absolute;
+    top: 2px;
+}
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div{
+    width: 19.9%;
+    height: 565px;
+    position: relative;
+    margin: -1px;
+    top: 65px;
+    display: inline-block;
+    vertical-align: top;
+}
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div>div{
+    width: 90%;
+    height: 40px;
+    position: relative;
+    right: 15px;
+    top: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: iranyekan,sans-serif;
+    color: rgba(70, 70, 70, 0.669);
+    line-height: 40px;
+    vertical-align: top;
+}
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(2)>div:nth-of-type(1) , header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(3)>div:nth-of-type(1) ,
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(3)>div:nth-of-type(7) , header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(3)>div:nth-of-type(14) , header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(4)>div:nth-of-type(6){
+    width: 90%;
+    height: 40px;
+    position: relative;
+    right: 15px;
+    top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: iranyekan, sans-serif;
+    color: #2b2b2b;
+    line-height: 40px;
+    vertical-align: top;
+    padding-right: 8px;
+}
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(2)>div:nth-of-type(1)>div ,
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(3)>div:nth-of-type(1)>div ,
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(3)>div:nth-of-type(7)>div ,
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(3)>div:nth-of-type(14)>div , header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(4)>div:nth-of-type(6)>div{
+    width: 10px;
+    height: 20px;
+    color: crimson;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(2)>div:nth-of-type(1)>div.svg ,header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(3)>div:nth-of-type(1)>div.svg , header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(3)>div:nth-of-type(7)>div.svg ,
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(3)>div:nth-of-type(14)>div.svg ,header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(4)>div:nth-of-type(6)>div.svg {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 15px;
+    right: 235px;
+}
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(4)>div:nth-of-type(6)>div.svg {
+    right: 185px;
+}
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div:nth-of-type(3)>div:nth-of-type(14)>div.svg {
+    right: 125px;
+}
+header>div.menu>nav>ul>li>div>div>div:hover>div.submenu>div>div:hover{
+    color: crimson;
+}
+

@@ -1,0 +1,60 @@
+div.customer{
+    width: 1005;
+    height: 450px;
+    margin-top: 24px;
+}
+div.customer>div{
+    width: 1614.14px;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center;
+}
+div.customer>div>h2{
+    font-size: 25px;
+    font-weight: normal;
+    color: rgb(12, 12, 12);
+    direction: rtl;
+    font-family: iranyekan,sans-serif;
+}
+div.customer>div.first{
+    width: 1614.14px;
+    height: 380px;
+    margin-top: 8px;
+    border: 1px solid #f0f0f1;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+div.customer>div.first>div{ 
+    width: 226.87px;
+    height: 190px;
+    display: inline-block;
+    padding: 16px 4px;
+    border-right: 1px solid #f0f0f1;
+    border-bottom: 1px solid #f0f0f1;
+    text-align: center;
+}
+div.customer>div.first>div>div{
+    width: 110px;
+    height: 110px;
+    display: inline-block;
+    background-color: #f0f0f1;
+    border-radius: 50%;
+    padding: 12px;
+}
+div.customer>div.first>div>div>img{
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+div.customer>div.first>div>h4{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+        direction: rtl;
+        font-family: iranyekan,sans-serif;
+        margin-top: 8px;
+        line-height: 30px;
+}

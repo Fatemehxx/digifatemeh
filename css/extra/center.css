@@ -1,0 +1,69 @@
+div.center{
+    width: 100%;
+    height: auto;
+    margin-top: 24px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+div.center>div{
+    width: 85%;
+    height: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+div.center>div>h3{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+    direction: rtl;
+    font-family: iranyekan,sans-serif;
+}
+div.center>div.first{
+    width: 85%;
+    height: 238px;
+    padding: 0 16px;
+}
+div.center>div.first>div{
+    width: 16.20%;
+    height: 212px;
+    display: inline-block;
+    text-align: center;
+}
+div.center>div.first>div>img{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+div.center>div.first>div>p{
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: iranyekan,sans-serif;
+    color: rgb(12, 12, 12);
+}
+div.center>div.second{
+    width: 70%;
+    height: 212px;
+}
+div.center>div.second>div{
+    width: 262px;
+    height: inherit;
+    display: inline-block;
+    text-align: center;
+}
+div.center>div.second>div>img{
+    width: 170px;
+    height: 170px;
+}
+div.center>div.second>div>p{
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: iranyekan,sans-serif;
+    color: rgb(12, 12, 12);
+}

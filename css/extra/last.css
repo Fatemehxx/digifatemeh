@@ -1,0 +1,75 @@
+div.last{
+    width: 100%;
+    height: 405px;
+    margin-top: 24px;
+}
+div.last>div.a{
+    width: 85%;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+}
+div.last>div.a::before{
+    content: attr(data-text);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: iranyekan,sans-serif;
+    color: rgb(8, 10, 56);
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+div.last>div.a::after {
+    content: attr(data-text2);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: iranyekan, sans-serif;
+    color: rgb(25, 191, 211);
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+div.last>div.a>div{
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 55px; 
+}
+div.last>div.a>div>div.y{
+    width: 24%;
+    height: inherit;
+    display: inline-block;
+    margin-right: 15px;
+    position: relative;
+    border: 1px solid #f0f0f1;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+div.last>div.a>div>div.y:nth-of-type(1){
+    margin-right: 3px;
+}
+div.last>div.a>div>div.y>img{
+    width: 386px;
+    height: 270px;
+    position: absolute;
+    top: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+div.last>div.a>div>div.y::before{
+    content: attr(data-text);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: iranyekan, sans-serif;
+    color: #080A38;
+    position: absolute;
+    right: 30px;
+    bottom: 40px;
+}
+div.last>div.a>div>div.y:nth-of-type(2):before{
+    line-height: 25px;
+    bottom: 10px;
+}
