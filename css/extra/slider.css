@@ -41,7 +41,7 @@ div.slider{
     font-weight: bold;
 }
 .myslider .swiper-button-prev,
-.myslider .swiper-rtl .swiper-button-next,.myslider .swiper-button-next,
+.myslider .swiper-rtl .swiper-button-next, .myslider .swiper-button-next,
 .myslider .swiper-rtl .swiper-button-prev {
     padding: 5px !important;
     background-color: lightgrey;

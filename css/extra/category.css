@@ -17,6 +17,14 @@ div.category>div>div{
     vertical-align: top;
     text-align: center;
 }
+div.category>div>div.last{
+    width: 12%;
+    height: 140px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: unset;
+    position: relative;
+}
 div.category>div>div>img{
     width: 52px;
     height: 52px;
@@ -36,10 +44,12 @@ div.category>div>div.last>div>p{
 div.category>div>div.last>div{
     width: 52px;
     height: 52px;
-    margin: 24px auto;
     background-color: #ececf0;
     border-radius: 50%;
     line-height: 52px;
+    position: absolute;
+    top: calc(50% - 90px / 2);
+    right: calc(50% - 90px / 2);
     
 }
 div.category>div>div.last>div>span{
